@@ -4,7 +4,6 @@ import { categories } from '../constants'
 import { useState } from 'react'
 
 export default function Categories({ activeCategory, setActiveCategory }) {
-
     return (
         <View style={{ marginTop: 10 }}>
             <ScrollView

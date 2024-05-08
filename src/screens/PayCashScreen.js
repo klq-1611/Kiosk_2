@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native'
 import { emptyCart } from '../slices/cartSlice'
 import { useDispatch } from 'react-redux'
 
-export default function Pay_CashScreen() {
+export default function PayCashScreen() {
     const navigation = useNavigation()
     const dispatch = useDispatch()
     const finishOrder = () => {

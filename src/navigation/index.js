@@ -5,9 +5,10 @@ import React from 'react'
 import HomeScreen from '../screens/HomeScreen';
 import CartScreen from '../screens/CartScreen';
 import PayMethodsScreen from '../screens/PayMethodsScreen';
-import Pay_QRScreen from '../screens/Pay_QRScreen';
-import Pay_CashScreen from '../screens/Pay_CashScreen';
+import PayQRScreen from '../screens/PayQRScreen';
+import PayCashScreen from '../screens/PayCashScreen';
 import WelcomeScreen from '../screens/WelcomeScreen';
+import DiningMethodsScreen from '../screens/DiningMethodsScreen';
 export default function Navigation() {
     return (
         <NavigationContainer>
@@ -16,11 +17,12 @@ export default function Navigation() {
 
             }>
                 <Stack.Screen name="Welcome" component={WelcomeScreen} />
+                <Stack.Screen name="DinMethods" component={DiningMethodsScreen} />
                 <Stack.Screen name="Home" component={HomeScreen} />
                 <Stack.Screen name="Cart" options={{ presentation: "modal" }} component={CartScreen} />
                 <Stack.Screen name="PayMethods" options={{ presentation: 'fullScreenModal' }} component={PayMethodsScreen} />
-                <Stack.Screen name="Pay_QR" options={{ presentation: 'fullScreenModal' }} component={Pay_QRScreen} />
-                <Stack.Screen name="Pay_Cash" options={{ presentation: 'fullScreenModal' }} component={Pay_CashScreen} />
+                <Stack.Screen name="Pay_QR" options={{ presentation: 'fullScreenModal' }} component={PayQRScreen} />
+                <Stack.Screen name="Pay_Cash" options={{ presentation: 'fullScreenModal' }} component={PayCashScreen} />
 
 
             </Stack.Navigator>

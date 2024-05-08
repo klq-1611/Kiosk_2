@@ -17,7 +17,7 @@ export const categories = [
     {
         id: 4,
         name: 'Combo Meals',
-        image: require('../../assets/images/tải xuống.jpg'),
+        image: require('../../assets/images/combo_meals.png'),
     },
     // Add more categories as needed
 ];
@@ -29,7 +29,7 @@ export const dishRow = [
         category: 'Fast Food',
         categoryId: 2,
         price: 10.99,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/special_burger.png'),
     },
     {
         id: 2,
@@ -37,7 +37,7 @@ export const dishRow = [
         category: 'Desserts',
         price: 4.99,
         categoryId: 3,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/ice_cream.png'),
     },
     {
         id: 3,
@@ -45,7 +45,7 @@ export const dishRow = [
         category: 'Beverages',
         price: 2.99,
         categoryId: 1,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/lemonade.png'),
     },
     {
         id: 4,
@@ -53,15 +53,15 @@ export const dishRow = [
         category: 'Beverages',
         price: 0.99,
         categoryId: 1,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/coca.png'),
     },
     {
         id: 5,
-        name: 'Plant Burger',
+        name: 'Vegan Burger',
         category: 'Fast Food',
         price: 8.99,
         categoryId: 2,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/vegan_burger.png'),
     },
     {
         id: 6,
@@ -69,15 +69,15 @@ export const dishRow = [
         category: 'Desserts',
         price: 2.33,
         categoryId: 3,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/pan_cake.png'),
     },
     {
         id: 7,
-        name: 'Fried Chicken',
+        name: 'Fried Chicken Combo',
         category: 'Combo Meals',
         price: 12.99,
         categoryId: 4,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/fried_chicken.png'),
     },
     {
         id: 8,
@@ -85,21 +85,44 @@ export const dishRow = [
         category: 'Combo Meals',
         price: 15.99,
         categoryId: 4,
-        image: require('../../assets/images/icons8-hamburger-96.png'),
+        image: require('../../assets/images/pizza.png'),
+    },
+    {
+        id: 9,
+        name: 'Culinary Explosion',
+        category: 'Combo Meals',
+        price: 13.99,
+        categoryId: 4,
+        image: require('../../assets/images/Combo_meal_1.png'),
     },
 ];
-export const Payment_Methods = [
+export const PaymentMethods = [
     {
         id: 1,
         name: 'QR Pay',
         navigate: 'Pay_QR',
-        image: require('../../assets/images/QR_image.png'),
+        image: require('../../assets/images/QR_payment.png'),
     },
     {
         id: 2,
         name: 'Cash Pay',
         navigate: 'Pay_Cash',
-        image: require('../../assets/images/public.avif'),
+        image: require('../../assets/images/Cash_payment.png'),
     },
     // Add more payment methods as needed
+];
+export const DiningMethods = [
+    {
+        id: 1,
+        name: 'Dine In',
+        navigate: 'Home',
+        image: require('../../assets/images/Dine_in.png'),
+    },
+    {
+        id: 2,
+        name: 'Take Out',
+        navigate: 'Home',
+        image: require('../../assets/images/Take_away.png'),
+    },
+    // Add more dining methods as needed
 ];

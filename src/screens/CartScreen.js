@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { selectHome } from '../slices/homeSlice.js'
 import { removeFromCart, selectCartItems, selectCartTotal } from '../slices/cartSlice.js'
 
+
 export default function CartScreen({ }) {
   const Prices = useSelector(selectHome);
   const navigation = useNavigation();

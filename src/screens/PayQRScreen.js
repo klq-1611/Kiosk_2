@@ -5,7 +5,7 @@ import { useNavigation } from '@react-navigation/native'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 
-export default function Pay_QRScreen() {
+export default function PayQRScreen() {
     const navigation = useNavigation()
 
     return (
